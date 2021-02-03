@@ -1,10 +1,13 @@
 buildscript {
+    ext {
+        retrofit2_version = '2.6.2'
+    }
     repositories {
-        jcenter()
         google()
+        jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath 'com.android.tools.build:gradle:4.0.2'
     }
 }
 
